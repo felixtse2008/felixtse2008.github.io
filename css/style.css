@@ -5,6 +5,7 @@
 
 .navbar-nav {
 	padding-left: 10px;
+	padding-right: 10px;
 }
 
 @media (min-width:767px) and (max-width:827px){
