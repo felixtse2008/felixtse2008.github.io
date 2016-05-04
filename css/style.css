@@ -1,0 +1,187 @@
+.navbar-nav li a {
+	text-align: center;
+	font-size: 20px;
+}
+
+.navbar-nav {
+	padding-left: 10px;
+}
+
+@media (min-width:767px) and (max-width:827px){
+.navbar-nav li a {
+	font-size: 17px;
+}
+}
+
+.navbar-collapse .nav li a:hover {
+	color: #2B638C;
+}
+
+.navbar-collapse .nav li a:focus {
+	color: #FFF;
+}
+
+.navbar-fixed-top {
+	background: #2FB1FF;
+}
+
+.navbar-header header {
+	color: #2B638C;
+	display: block;
+	background-color: transparent;
+	font-size: 36px;
+	margin-left: 15px;
+}
+
+@media (max-width:767px){
+.dis {
+	display: none;	
+}
+
+.navbar-header header {
+	font-size: 28px;
+	margin-top: 20px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+p {
+	width: 60%;
+	margin: 0 auto;
+	font-weight: 700;
+}
+
+#about {
+	text-align: center;
+	background-color: #FFF;
+	color: #2B638C;
+}
+
+#about img {
+	display: block;
+    margin: 20px auto 20px;
+	width: 500px;
+}
+
+#about p {
+	font-size: 24px;
+}
+
+.intro-text .name {
+	font-size: 48px;
+}
+
+#achievement {
+	background-color: #2B638C;
+	color: #FFF;	
+}
+
+#achievement img {
+	display: block;
+	margin: 10px auto 20px;
+	width: 350px;
+	height: 400px;
+}
+
+#volleyball {
+	background-color: #FFF;
+	color: #2B638C;
+}
+
+#volleyball img {
+	display: block;
+	margin: 10px auto 20px;
+	width: 250px;
+}
+
+#gallery {
+	background-color: #2B638C;
+	color: #FFF;
+}
+
+#gallery img,
+#gallery p {
+	max-width: 80%;
+	max-height: 100%;
+	margin: 10px auto;
+}
+
+.navbar-default .navbar-toggle {
+	border-color:#2B638C;
+	margin-top:22px;
+	margin-bottom:0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color:#2B638C;
+}
+
+.btn-primary {
+	color:#ffffff;
+	background-color:#26C9FF;
+	border-color:#26C9FF
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+	color:#ffffff;
+	background-color:#2FB1FF;
+	border-color:#2FB1FF;
+}
+
+.btn-primary:hover {
+	color:#ffffff;
+	background-color:#2FB1FF;
+	border-color:#2FB1FF;
+}
+
+.btn-primary:active:hover, 
+.btn-primary.active:hover, 
+.open>.dropdown-toggle.btn-primary:hover, 
+.btn-primary:active:focus, .btn-primary.active:focus, 
+.open>.dropdown-toggle.btn-primary:focus, 
+.btn-primary:active.focus, 
+.btn-primary.active.focus, 
+.open>.dropdown-toggle.btn-primary.focus {
+	color: #ffffff;
+	background-color: #2B638C;
+	border-color: #000000
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+	display:block !important
+}
+
+#gallery p {
+	width: 90%;
+}
+
+#contact {
+	color: #2B638C;
+}
+
+#contact p {
+	text-align:center;
+	font-size: 24px;
+}
+
+#contact img {
+	display: block;
+    margin: 0 auto 10px;
+	width: 500px;
+}
+
+footer .footer-above {
+	padding: 10px 0;
+    background-color: #2c3e50;
+}
+
+.container {
+	padding: 35px 0;
+}
